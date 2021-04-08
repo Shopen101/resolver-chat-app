@@ -1,0 +1,59 @@
+.backBlack {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99 !important;
+    
+
+    .text__block {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 35px;
+        max-height: 600px;
+        overflow-y: auto;
+
+        h2 {
+            margin: 20px 0 !important;
+        }
+        hr {
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .alltext p {
+            line-height: 1.8;
+            font-size: 20px;
+            color: #000;
+        }
+    }
+}
+
+.backBlack-enter {
+    opacity: 0;
+}
+
+.backBlack-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+.backBlack-exit {
+    opacity: 1;
+}
+
+.backBlack-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+}

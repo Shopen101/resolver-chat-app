@@ -1,0 +1,44 @@
+h2 {
+    text-align: center;
+    margin: 70px 0;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.finder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+    &__parts {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0 25px;
+    }
+}
+
+.find__img {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 18px;
+    margin: 13px 12px 0 0;
+    font-weight: 700;
+}
+
+.finder__align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &_labels {
+        height: 132px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+}
